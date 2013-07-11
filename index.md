@@ -1,0 +1,23 @@
+---
+title       : Test of slidify
+subtitle    : 
+author      : allan just
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+---
+
+## Read-And-Delete
+
+library(ggplot2)
+ggplot(mtcars, aes(hp, mpg)) + geom_point()
+--- .class #id 
+
+## Slide 2
+
+paste("this is a test")
+
+
