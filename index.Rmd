@@ -10,14 +10,21 @@ widgets     : []            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 ---
 
-## Read-And-Delete
+## My first content slide
 
+```{r}
 library(ggplot2)
 ggplot(mtcars, aes(hp, mpg)) + geom_point()
---- .class #id 
 
-## Slide 2
+```
 
+--- 
+
+## The next slide
+
+```{r}
 paste("this is a test")
+```
+
 
 
